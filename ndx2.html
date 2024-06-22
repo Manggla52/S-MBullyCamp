@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head style="background-color: orange;"> 
+<head> 
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -12,7 +12,7 @@
   <link href="ndx2.html" rel="stylesheet" type="text/css"/>
   <link href="ndx3.html" rel="stylesheet" type="text/css"/>
    <!--Classes-->
-   <div class="backGV2"></div>
+   
    <div class="Body1">
   <div class="flex-container">
    <!--IDs-->
@@ -25,18 +25,32 @@
       </nav></div>
       </div>
     </head>
-
+ <video autoplay muted loop id="backGV2">
+          <source src="video/msv2.mp4" type="video/mp4">
+      </video>
      
        <div class="content">
        <div class="Body2">
-        <div class="BGImage1">
+      
+       
       <body>
+        <P>
+          <script>
+          let userName;
+
+          userName = prompt("What is your name?");
+          document.write(`Hello ${userName}, nice to meet you! Welcome to the about section of S & M Bully Camp.`);
+          </script>
+        </P>
           
-      <h1>Heading</h1>
+      <h1><strong>About</strong></h1>
       
   
-        <h2>About S & M Bully Cxamp</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quisquam? Impedit atque quis veritatis illo,
+        <h2>S & M Bully Camp</h2>
+        <p><strong>"S & M Bully Camp a dog breeding camp specializing especially in the Bully Bloodline. AT S & M, the health
+           of the dog is put on high esteam; therefor the diet of the studs and females are taken seriously. S & M ensures 
+           the best gens for your stock.  Strong, Health, and Smart are the main qualities that are put forth displaying
+            Alpha Genitics." thatipsum dolor sit amet consectetur adipisicing elit. Iste, quisquam? Impedit atque quis veritatis illo,
            amet obcaecati doloribus incidunt repellat voluptatibus libero, mollitia voluptate ad quaerat? Nostrum minus
             tempore iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aliquid odio? Iusto tenetur quam, 
             recusandae porro ab libero, quasi cum omnis nesciunt optio molestias quia eveniet architecto dolor odit a.
@@ -50,17 +64,25 @@
               recusandae porro ab libero, quasi cum omnis nesciunt optio molestias quia eveniet architecto dolor odit a.</p>
 
             <ol>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
+              <li><a image href="images/ms3.jpeg">Image 1</a></li>
+              <li><a image href="images/ms4.jpeg">Image 2</a></li>
+              <li><a image href="images/ms2.jpeg">Image 3</a></li>
+              <li><a image href="images/ms1.jpeg">Image 4</a></li>
+              <li><a image href="images/ms3.jpeg">Image 5</a></li>
+           
             </ol>
           </div>
-        <script>
-         
-          
-        </script>
+          <p>
+            <script>
+              let dogName;
+        
+              dogName = prompt(`${userName}`, "What is the breed of your dog?");
+
+              document.write()
+              // Try it! Write a message about the dog's name!
+              document.write(`${userName}, ${dogName}, is a great breed of dog!` );
+            </script>
+          </p>
         </div>
       </div>
     </body>

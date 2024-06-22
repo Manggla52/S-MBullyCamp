@@ -7,7 +7,9 @@
    
 }
 .Body1{
-   color:blue;
+   color:  rgb(22, 137, 172);
+   font-size: 19px;
+   line-height: 25px;
 }
 .Body2{
     padding: 40px;
@@ -15,9 +17,20 @@
     font-size: 19px;
     color:aqua
 }
+.Body3{
+  text-align: center;
+  background-color: orangered;
+  font-size: 19px;
+}
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
+  align-content: center;
+    border-style:solid; 
+    border-color:  blue;
+    border-radius: 25px; 
+    border-width: 30px;
     position: fixed;
+    padding-left:  20px;
     right: 0;
     bottom: 0;
     min-width: 75%;
@@ -28,8 +41,8 @@
   .content {
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #0e498d;
+    
+    color:  rgb(58, 133, 184);
    margin-left: 200px;
     padding: 20px;
     text-align: justify;
@@ -54,8 +67,24 @@
     background: #ddd;
     color: black;
   }
-.backGV2{
-  background-image: url('https://www.canva.com/design/DAGIy5_qWxc/Xm1xyWmiMHpJ187bEnCJng/view?utm_content=DAGIy5_qWxc&utm_campaign=designshare&utm_medium=link&utm_source=editor');
-}
+#backGV2{
+  padding-left: 200px;
+  width: 1433px;
+  }
+  #myVideo2{
+    width: 960px;
+    height: 700px;
+    align-content: center;
+  }
+  #myVideo3{
+    width: 960px;
+    height: 700px;
+    align-content: center;
+  }
+  #myVideo4{
+    width: 960px;
+    height: 700px;
+    align-content: center;
+  }
 
  
